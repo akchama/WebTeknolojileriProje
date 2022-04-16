@@ -1,0 +1,14 @@
+{
+  "name": "webteknolojileriproje",
+  "version": "1.0.0",
+  "description": "Web Teknolojileri dönem projesi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdullah Akçam",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
+}
