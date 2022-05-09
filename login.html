@@ -70,15 +70,22 @@
         <div class="about-me-section bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-6">
-                        <h2 class="text-head">
-                            MİRASIMIZ
-                        </h2>
-                        <div class="break-small mb-2"></div>
-                        <p class="text-para">
-
-                        </p>
+                    <div class="col-12 p-5 profil-img">
+                        <img src="img/profil.PNG" alt="">
                     </div>
+
+                    <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text.center">
+                        <div>
+                            <form class="justify-content-center form" action="login.php" method="POST">
+                                <div>
+                                    <input type="email" name="username" class="form-control" placeholder="Kullanıcı Adı" required> <br>
+                                    <input type="password" name="password" class="form-control" placeholder="Şifre" required>
+                                </div><br>
+                                <button type="submit" class="btn btn-dark col-md-3" name="kaydet" id="kaydet"> Giriş Yap </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
                 </div>
             </div>
         </div>
