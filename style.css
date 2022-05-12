@@ -9,8 +9,18 @@ main {
     overflow-y: hidden;
 }
 
+.town {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 200vh;
+    max-height: 200vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
 .sidebar {
     width: 280px;
+    height: 200vh;
 }
 
 h1, h2, h3, h4, h5, h6, a, p {
@@ -40,6 +50,11 @@ h5, h6, a, p {
 .about-me-section {
     width: 100%;
     padding: calc(5% + 30px) 0;
+}
+
+.about-me-section-town {
+    width: 100%;
+    padding: calc(30% + 30px) 0;
 }
 
 .about-me-section .img-head {
